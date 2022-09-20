@@ -16,7 +16,7 @@ import random
 import time
 import adafruit_bus_device.spi_device as spidev
 from micropython import const
-import tasko
+import asyncio as tasko
 
 HAS_SUPERVISOR = False
 
