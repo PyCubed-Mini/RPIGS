@@ -1,0 +1,3 @@
+[submodule "rpi_dual_rfm98_hat/kicad-libs"]
+	path = rpi_dual_rfm98_hat/kicad-libs
+	url = git@github.com:PyCubed-Mini/kicad-libs.git
