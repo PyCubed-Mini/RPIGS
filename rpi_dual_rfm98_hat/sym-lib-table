@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "raspberrypi-gpio-40pin-rescue")(type "Legacy")(uri "${KIPRJMOD}/raspberrypi-gpio-40pin-rescue.lib")(options "")(descr "")(disabled))
+  (lib (name "mainboard")(type "KiCad")(uri "${KIPRJMOD}/kicad-libs/mainboard.kicad_sym")(options "")(descr ""))
 )
