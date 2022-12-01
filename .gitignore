@@ -27,3 +27,5 @@ fp-info-cache
 
 *.DS_Store
 *.kicad_prl
+
+*auto_save*
