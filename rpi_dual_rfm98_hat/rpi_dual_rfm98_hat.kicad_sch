@@ -1980,7 +1980,7 @@
   (symbol (lib_id "power:+3.3V") (at 48.26 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a2fd471d-3e12-476d-a5a0-90a04dca364c)
-    (property "Reference" "#PWR?" (id 0) (at 48.26 96.52 0)
+    (property "Reference" "#PWR0101" (id 0) (at 48.26 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 48.26 87.63 0))
@@ -2062,7 +2062,7 @@
   (symbol (lib_id "power:+3.3V") (at 132.08 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b9407fe6-f1cf-4825-8663-0abf7fd1f2f5)
-    (property "Reference" "#PWR?" (id 0) (at 132.08 72.39 0)
+    (property "Reference" "#PWR0102" (id 0) (at 132.08 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 132.08 63.5 0))
@@ -2201,7 +2201,7 @@
   (symbol (lib_id "Device:R_US") (at 132.08 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d78b5a65-1fde-4ebc-9dc2-78efbddd07eb)
-    (property "Reference" "R?" (id 0) (at 134.62 128.2699 0)
+    (property "Reference" "R5" (id 0) (at 134.62 128.2699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (id 1) (at 134.62 130.8099 0)
@@ -2220,7 +2220,7 @@
   (symbol (lib_id "power:+3.3V") (at 132.08 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d7c8303f-5b99-4f7e-8c15-deab02a60d2a)
-    (property "Reference" "#PWR?" (id 0) (at 132.08 125.73 0)
+    (property "Reference" "#PWR0103" (id 0) (at 132.08 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 132.08 116.84 0))
@@ -2236,7 +2236,7 @@
   (symbol (lib_id "Device:R_US") (at 132.08 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d9d23d87-3a7b-404f-958e-588b0293f018)
-    (property "Reference" "R?" (id 0) (at 134.62 74.9299 0)
+    (property "Reference" "R4" (id 0) (at 134.62 74.9299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (id 1) (at 134.62 77.4699 0)
@@ -2347,13 +2347,13 @@
       (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
     (path "/a2fd471d-3e12-476d-a5a0-90a04dca364c"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/b9407fe6-f1cf-4825-8663-0abf7fd1f2f5"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/d7c8303f-5b99-4f7e-8c15-deab02a60d2a"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0103") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/883a0fc5-3b19-49ad-9afb-f61d2e7f228f"
       (reference "D1") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -2400,11 +2400,11 @@
     (path "/87889c0a-2728-4d4d-932e-2b0fe46484a3"
       (reference "R3") (unit 1) (value "470") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/d78b5a65-1fde-4ebc-9dc2-78efbddd07eb"
-      (reference "R?") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
     (path "/d9d23d87-3a7b-404f-958e-588b0293f018"
-      (reference "R?") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R4") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/d78b5a65-1fde-4ebc-9dc2-78efbddd07eb"
+      (reference "R5") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/bb120769-0ef8-4334-bd86-00b5e1753f3f"
       (reference "U1") (unit 1) (value "RFM98PW-symbols") (footprint "mainboard:RFM95PW")
