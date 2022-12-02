@@ -411,7 +411,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../Downloads/rpi_dual_rfm98_hat.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
